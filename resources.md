@@ -1,6 +1,4 @@
-# Group 6: Chaotic 
-
-# Resources 
+# Group 6: Chaotic - Resources  
 
 ## Technical Resources 
 
@@ -28,21 +26,19 @@ OpenCV.js
     - helpful for face recognition 
     - host a website with js and html that displays the user's camera (create a face filter maybe) 
     - tutorial on how to use openCV.js to track face
-    
 
 ## Artistic/Design/Aesthetic Resources
 
 Project Ideas:
     - Marker based augmented reality (card or qr code AR):
-        https://www.aircards.co/blog/markerless-vs-marker-based-ar-with-examples
+    
+    - https://www.aircards.co/blog/markerless-vs-marker-based-ar-with-examples
         
-        https://www.youtube.com/watch?v=dRY6iuGkKBM (at 11:33 demonstrates an AR business card)
+    - https://www.youtube.com/watch?v=dRY6iuGkKBM (at 11:33 demonstrates an AR business card)
 
-        https://cdn.vox-cdn.com/thumbor/T0-1jIj2DV_TrwvidOo5Aq-IMes=/100x0:1180x720/1200x800/filters:focal(100x0:1180x720)/cdn.vox-   cdn.com/uploads/chorus_image/image/10755221/3ds-ar-card-mario_1280.0.jpg
+    - https://cdn.vox-cdn.com/thumbor/T0-1jIj2DV_TrwvidOo5Aq-IMes=/100x0:1180x720/1200x800/filters:focal(100x0:1180x720)/cdn.vox-cdn.com/uploads/chorus_image/image/10755221/3ds-ar-card-mario_1280.0.jpg
 
 Exhibition I found interesting:
-    https://ago.ca/exhibitions/reblink
+    - https://ago.ca/exhibitions/reblink
 
-    - location based AR (e.g., Pokemon GO or Augmented Reality that helps navigation) 
-      https://www.pocket-lint.com/apps/news/google/147956-what-is-google-maps-ar-navigation-and-how-do-you-use-it
-
+    - location based AR (e.g., Pokemon GO or Augmented Reality that helps navigation) - https://www.pocket-lint.com/apps/news/google/147956-what-is-google-maps-ar-navigation-and-how-do-you-use-it
