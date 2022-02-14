@@ -6,4 +6,4 @@ Arsh - Weekdays
 Elif - Weekends, Fridays
 Wilner - Weekends
 Valmaurice - Weekdays (Mon, Fri)
-Sneha - 
+Sneha - Weekdays (Tue, Wed, Thur)
