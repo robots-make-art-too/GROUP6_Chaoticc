@@ -1,5 +1,6 @@
 # Group 6: Chaotic 
 ##Artistic Resources
+
 [ Bhangra Group ] (https://www.bfunk.com)
 [ Travelling Blog ] (https://loveistraveling.com)
 [ Doodle Artist ] (https://aliciasouza.com)
@@ -7,6 +8,7 @@
 [ How to make doodles ] (https://procreate.art)
 
 ## Technical Resources
+
 [ Coding Learning ] (https://processing.org)
 [ Online Coding Software ]  (https://www.w3schools.com/html/)
 [ How to Write Java Scripts ] (https://www.javatpoint.com/java-tutorial)
