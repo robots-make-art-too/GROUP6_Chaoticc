@@ -1,7 +1,7 @@
 # Group 6: Chaotic 
 
 
-##Artistic Resources
+## Artistic Resources
 
 [ Bhangra Group ] (https://www.bfunk.com)
 
