@@ -1,12 +1,9 @@
 window.onload = () => {
-    const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '>';
-
     setScene();
     changePlanet();
 };
 
-var models = [
+var models = [ //array of the planets and their attributes
     {
         url: 'assets/models/mercury.gltf',
         scale: '0.5 0.5 0.5',
@@ -68,7 +65,7 @@ var models = [
 var modelIndex = 0;
 var modelDesc = true;
 
-function setScene() {
+function setScene() { //screates the initial scene
     let scene = document.querySelector('a-scene');
     let marker = document.querySelector('a-marker');
 
@@ -91,18 +88,23 @@ function setScene() {
     marker.appendChild(model);    
 }
 
-function changePlanet() {
+function changePlanet() { //swaps through the different planets
 
     let entity = document.querySelector('#planet');
 
     var newIndex = modelIndex % models.length;
-
+   
     entity.setAttribute('gltf-model', models[newIndex].url);
     entity.setAttribute('scale', models[newIndex].scale);
 
     let description = document.querySelector('a-text')
 
-    description.setAttribute('value', models[newIndex].value) // set planet description
+    if (modelDesc == true) {
+        description.setAttribute('value', models[newIndex].value) // set planet description   
+    } else {
+        description.setAttribute('value', '')
+    }
+   
     description.setAttribute('position', models[newIndex].position) // set text position 
   
     const div = document.querySelector('.name');
@@ -110,5 +112,17 @@ function changePlanet() {
 
     modelIndex++;
 }
+
+function hideDescription() { //hides/shows planet description
+    let description = document.querySelector('a-text')
+    if (modelDesc == true) {
+        modelDesc = false;
+        description.setAttribute('value', '')   
+    } else {
+        modelDesc = true;
+        description.setAttribute('value', models[modelIndex-1].value)
+    }
+}
+
 
 
