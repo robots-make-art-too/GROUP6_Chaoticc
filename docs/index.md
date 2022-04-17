@@ -4,7 +4,7 @@ Learn about the planets in our Solar System in an AR environment!
 
 ## Before visiting
 - you will need the AR marker, which will display the content 
-- ![](https://raw.githubusercontent.com/robots-make-art-too/GROUP6_Chaoticc/gh-pages/docs/website/assets/markers/pattern-marker.png | width=100)## theme
+- ![](https://raw.githubusercontent.com/robots-make-art-too/GROUP6_Chaoticc/gh-pages/docs/website/assets/markers/pattern-marker.png | width=100)
 - download a print the marker 
 
 Visit the AR page [here](website/ar-index.html)
