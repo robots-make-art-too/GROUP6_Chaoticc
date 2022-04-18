@@ -95,11 +95,12 @@ function setScene() { //screates the initial scene
     marker.appendChild(model);    
 }
 
+var newIndex;
 function changePlanet() { //swaps through the different planets
 
     let entity = document.querySelector('#planet');
 
-    var newIndex = modelIndex % models.length;
+    newIndex = modelIndex % models.length;
    
     entity.setAttribute('gltf-model', models[newIndex].url);
     entity.setAttribute('scale', models[newIndex].scale);
@@ -127,6 +128,7 @@ function hideDescription() { //hides/shows planet description
         description.setAttribute('value', '')   
     } else {
         modelDesc = true;
-        description.setAttribute('value', models[modelIndex-1].value)
+        description.setAttribute('value', models[newIndex].value)
     }
 }
+
