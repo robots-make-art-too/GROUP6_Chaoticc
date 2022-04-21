@@ -15,7 +15,7 @@ Aim your camera to the marker and use the large button located on the bottom of 
 
 <br>
 
-## What you'll see 
+#### What you'll see 
 
 <div style="display:flex;">
   <img src="website/assets/sun.JPG" alt="sun" width="150"/>
