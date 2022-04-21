@@ -13,6 +13,10 @@ Aim your camera to the marker and use the large button located on the bottom of 
 ## You are now ready to explore The Solar System in AR
 - Visit the AR page [here](website/ar-index.html)
 
+<br>
+
+## What you'll see 
+
 <div style="display:flex;">
   <img src="website/assets/sun.JPG" alt="sun" width="150"/>
   <img src="website/assets/earth.JPG" alt="earth" width="150"/>
